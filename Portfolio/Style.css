@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(12, 12, 12);
+}
+
+
+.pai {
+    display: flex;
+    
+}
+
+.left {
+    background-color: blue;
+    height: 500px;
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+  
+
+.title {
+    display: flex;
+    flex-direction: row ;
+    align-items: center ;
+    max-width: 100px;
+    
+
+}
+
+.title div {
+    font-size: 20px; 
+    color:  green;
+    width: 100px;
+
+}
+
+.barra {
+    background-color: green;
+    height: 50px;
+    width: 1000px;
+}  
+
+
+
+
